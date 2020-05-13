@@ -1,24 +1,16 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
+devise導入しログイン機構の構築
+
+railstutorial・とweb情報を織り交ぜながら作成し自身で検索し解決するよう心掛けた。
+
+gem 'omniauth'
+ジェム「omniauth-facebook」を導入を試みたが失敗
+
+dryを心掛けフレキシブルな作成
+
+
+自身の体感では初期に比べ大きく飛躍できたと感じるが、まだまだ理解していない部分も多いので更に貪欲に取り組んでいきたい
 * ...
