@@ -19,6 +19,8 @@ group :development do
   gem 'listen',                '3.1.5'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
+  gem 'carrierwave', '~> 1.0'
+  gem 'mini_magick'
 end
 
 group :test do
@@ -38,4 +40,4 @@ gem 'devise', '~> 4.6.1'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'bootstrap', '~> 4.1.1'
-
+gem 'dotenv-rails'

@@ -16,12 +16,13 @@ class User < ApplicationRecord
         uid:      auth.uid,
         provider: auth.provider,
         email:    auth.info.email,
-        password: Devise.friendly_token[0, 20]
+        name:  auth.info.name,
+        password: Devise.friendly_token[0, 20],
+        image:  auth.info.image
       )
     end
     user
  end
-  
   
   def update_without_current_password(params, *options)
     params.delete(:current_password)
